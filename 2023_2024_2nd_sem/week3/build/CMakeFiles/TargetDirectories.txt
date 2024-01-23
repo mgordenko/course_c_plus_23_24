@@ -1,0 +1,3 @@
+/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week3/build/CMakeFiles/problem1.dir
+/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week3/build/CMakeFiles/edit_cache.dir
+/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week3/build/CMakeFiles/rebuild_cache.dir
