@@ -10,6 +10,7 @@ int main() {
     std::cout << arr[i] << " ";
   }
   std::cout << "\n";
+  std::cout << arr << "\n";
   for (int i = 0; i < n; i++) {
     std::cout << *(arr + i) << " ";
   }
