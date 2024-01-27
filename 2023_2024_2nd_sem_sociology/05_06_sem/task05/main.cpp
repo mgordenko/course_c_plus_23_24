@@ -5,9 +5,8 @@
 сравнения элементов (попробовать по возрастанию,
 по убыванию)
 */
-
 #include <iostream>
+#include <algorithm>
 
 int main() {
-    
 }
