@@ -1,13 +1,13 @@
 ///////////////////////////////////////////////////////////////////////////////
 /// \file
-/// \brief      Main module for a Problem: Pointers - Sum of Two Numbers
+/// \brief      Main module for Problem: Execute Callback
 /// \version    0.1.0
-/// \date       22.01.2022
+/// \date       30.01.2024
 ///
 /// TASK DESCRIPTION
 ///
-/// Write a program that reads two integers from the standard input and calculates
-/// their sum using pointers. Print the result.
+/// Write a function `void executeCallback(void (*callback)())` that takes a 
+/// function pointer and executes the callback function.
 ///
 ///////////////////////////////////////////////////////////////////////////////
 

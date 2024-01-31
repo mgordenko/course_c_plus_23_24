@@ -6,18 +6,16 @@
 ///
 /// TASK DESCRIPTION
 ///
-/// Write a function `void increment(int &value)` that increments the value of 
+/// Write a function `void increment(int &value)` 
+/// that increments the value of 
 /// the passed integer by 1.
 ///
 ///////////////////////////////////////////////////////////////////////////////
 
 #include <iostream>
 
-// Your code here
-
 int main()
 {
-    // Your code here
 
     return 0;
 }

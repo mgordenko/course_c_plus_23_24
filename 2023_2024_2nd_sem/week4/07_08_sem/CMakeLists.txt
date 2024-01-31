@@ -22,4 +22,5 @@ add_executable(problem5_transformArray                problem5_transformArray/ma
 add_executable(problem6_executeCallback                problem6_executeCallback/main.cpp)
 add_executable(problem7_sum                problem7_sum/main.cpp)
 add_executable(problem8_template                problem8_template/main.cpp)
+add_executable(problem9_filter                problem9_filter/main.cpp)
 

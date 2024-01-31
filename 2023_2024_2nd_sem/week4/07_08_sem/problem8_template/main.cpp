@@ -1,13 +1,13 @@
 ///////////////////////////////////////////////////////////////////////////////
 /// \file
-/// \brief      Main module for a Problem: Pointers - Find Maximum Element
+/// \brief      Main module for Problem: Generic Swap Function
 /// \version    0.1.0
-/// \date       22.01.2022
+/// \date       30.01.2024
 ///
 /// TASK DESCRIPTION
 ///
-/// Write a program that reads an array of integers from the standard input and
-/// finds the maximum element using pointers. Print the maximum element.
+/// Write a template function `template<typename T> void swap(T &a, T &b)` that 
+/// swaps two elements of any type.
 ///
 ///////////////////////////////////////////////////////////////////////////////
 

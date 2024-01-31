@@ -1,14 +1,13 @@
 ///////////////////////////////////////////////////////////////////////////////
 /// \file
-/// \brief      Main module for a Problem: Bit Manipulation - Set Bit
+/// \brief      Main module for Problem: Array Transformation
 /// \version    0.1.0
-/// \date       22.01.2022
+/// \date       30.01.2024
 ///
 /// TASK DESCRIPTION
 ///
-/// Write a program that takes an integer n and a position k as input. The program
-/// should set (change to 1) the k-th bit of the integer n and print the resulting
-/// number in binary and decimal forms.
+/// Write a function `void transformArray(int* arr, int size, int (*transform)(int))`
+/// that applies a transformation function to each element of an array.
 ///
 ///////////////////////////////////////////////////////////////////////////////
 

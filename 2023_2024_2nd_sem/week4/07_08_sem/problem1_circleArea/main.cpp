@@ -12,12 +12,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 #include <iostream>
+#include <cmath>
 
-// Your code here
-
-int main()
-{
-    // Your code here
-
-    return 0;
+int main() {
 }

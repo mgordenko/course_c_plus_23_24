@@ -1,13 +1,13 @@
 ///////////////////////////////////////////////////////////////////////////////
 /// \file
-/// \brief      Main module for a Problem: Pointers - Swap Variables
+/// \brief      Main module for Problem: Sum of Numbers
 /// \version    0.1.0
-/// \date       22.01.2022
+/// \date       30.01.2024
 ///
 /// TASK DESCRIPTION
 ///
-/// Write a program that reads two integers from the standard input and swaps
-/// their values using pointers. Print the swapped values.
+/// Write a variadic function `int sum(int count, ...)` that returns the sum of 
+/// 'count' numbers.
 ///
 ///////////////////////////////////////////////////////////////////////////////
 
