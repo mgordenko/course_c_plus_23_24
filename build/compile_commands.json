@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/problem1_circleArea.dir/problem1_circleArea/main.cpp.o -c /Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/2023_2024_2nd_sem/week4/07_08_sem/problem1_circleArea/main.cpp",
+  "file": "/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/2023_2024_2nd_sem/week4/07_08_sem/problem1_circleArea/main.cpp",
+  "output": "CMakeFiles/problem1_circleArea.dir/problem1_circleArea/main.cpp.o"
+},
+{
+  "directory": "/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/problem2_increment.dir/problem2_increment/main.cpp.o -c /Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/2023_2024_2nd_sem/week4/07_08_sem/problem2_increment/main.cpp",
+  "file": "/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/2023_2024_2nd_sem/week4/07_08_sem/problem2_increment/main.cpp",
+  "output": "CMakeFiles/problem2_increment.dir/problem2_increment/main.cpp.o"
+},
+{
+  "directory": "/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/problem3_recursive.dir/problem3_recursive/main.cpp.o -c /Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/2023_2024_2nd_sem/week4/07_08_sem/problem3_recursive/main.cpp",
+  "file": "/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/2023_2024_2nd_sem/week4/07_08_sem/problem3_recursive/main.cpp",
+  "output": "CMakeFiles/problem3_recursive.dir/problem3_recursive/main.cpp.o"
+},
+{
+  "directory": "/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/problem4_print.dir/problem4_print/main.cpp.o -c /Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/2023_2024_2nd_sem/week4/07_08_sem/problem4_print/main.cpp",
+  "file": "/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/2023_2024_2nd_sem/week4/07_08_sem/problem4_print/main.cpp",
+  "output": "CMakeFiles/problem4_print.dir/problem4_print/main.cpp.o"
+},
+{
+  "directory": "/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/problem5_transformArray.dir/problem5_transformArray/main.cpp.o -c /Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/2023_2024_2nd_sem/week4/07_08_sem/problem5_transformArray/main.cpp",
+  "file": "/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/2023_2024_2nd_sem/week4/07_08_sem/problem5_transformArray/main.cpp",
+  "output": "CMakeFiles/problem5_transformArray.dir/problem5_transformArray/main.cpp.o"
+},
+{
+  "directory": "/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/problem6_executeCallback.dir/problem6_executeCallback/main.cpp.o -c /Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/2023_2024_2nd_sem/week4/07_08_sem/problem6_executeCallback/main.cpp",
+  "file": "/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/2023_2024_2nd_sem/week4/07_08_sem/problem6_executeCallback/main.cpp",
+  "output": "CMakeFiles/problem6_executeCallback.dir/problem6_executeCallback/main.cpp.o"
+},
+{
+  "directory": "/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/problem7_sum.dir/problem7_sum/main.cpp.o -c /Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/2023_2024_2nd_sem/week4/07_08_sem/problem7_sum/main.cpp",
+  "file": "/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/2023_2024_2nd_sem/week4/07_08_sem/problem7_sum/main.cpp",
+  "output": "CMakeFiles/problem7_sum.dir/problem7_sum/main.cpp.o"
+},
+{
+  "directory": "/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/problem8_template.dir/problem8_template/main.cpp.o -c /Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/2023_2024_2nd_sem/week4/07_08_sem/problem8_template/main.cpp",
+  "file": "/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/2023_2024_2nd_sem/week4/07_08_sem/problem8_template/main.cpp",
+  "output": "CMakeFiles/problem8_template.dir/problem8_template/main.cpp.o"
+}
+]

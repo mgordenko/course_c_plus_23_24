@@ -1,0 +1,10 @@
+/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/build/CMakeFiles/problem1_circleArea.dir
+/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/build/CMakeFiles/problem2_increment.dir
+/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/build/CMakeFiles/problem3_recursive.dir
+/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/build/CMakeFiles/problem4_print.dir
+/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/build/CMakeFiles/problem5_transformArray.dir
+/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/build/CMakeFiles/problem6_executeCallback.dir
+/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/build/CMakeFiles/problem7_sum.dir
+/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/build/CMakeFiles/problem8_template.dir
+/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/build/CMakeFiles/edit_cache.dir
+/Users/nadezhdafomicheva/Documents/course_c_plus_23_24-1/build/CMakeFiles/rebuild_cache.dir
