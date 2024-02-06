@@ -1,0 +1,3 @@
+/Users/mgordenko/Course-C-/2023-2024 2nd sem/week2/03-04 sem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mgordenko/Course-C-/2023-2024 2nd sem/week2/03-04 sem/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mgordenko/Course-C-/2023-2024 2nd sem/week2/03-04 sem/cmake-build-debug/CMakeFiles/problem1_hello.dir

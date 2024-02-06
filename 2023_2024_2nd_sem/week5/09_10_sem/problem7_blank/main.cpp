@@ -1,0 +1,19 @@
+///////////////////////////////////////////////////////////////////////////////
+/// \file
+/// \version    0.1.0
+/// \date       30.01.2024
+///
+/// TASK DESCRIPTION
+///
+/// Write a program that removes all blank lines from a text file and writes the result to a new file.
+///
+///////////////////////////////////////////////////////////////////////////////
+
+#include <iostream>
+
+int main()
+{
+    // Your code here
+
+    return 0;
+}
