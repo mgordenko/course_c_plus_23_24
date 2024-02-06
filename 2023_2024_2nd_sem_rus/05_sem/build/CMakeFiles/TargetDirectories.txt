@@ -1,0 +1,3 @@
+/Users/mgordenko/2023_2024_2nd_sem_rus/05_sem/build/CMakeFiles/ex1.dir
+/Users/mgordenko/2023_2024_2nd_sem_rus/05_sem/build/CMakeFiles/edit_cache.dir
+/Users/mgordenko/2023_2024_2nd_sem_rus/05_sem/build/CMakeFiles/rebuild_cache.dir
