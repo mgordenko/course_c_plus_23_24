@@ -1,0 +1,8 @@
+/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/CLionProjects/cpp_course/2023_2024_2nd_sem/contest2/cmake-build-debug/CMakeFiles/task1.dir
+/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/CLionProjects/cpp_course/2023_2024_2nd_sem/contest2/cmake-build-debug/CMakeFiles/task2.dir
+/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/CLionProjects/cpp_course/2023_2024_2nd_sem/contest2/cmake-build-debug/CMakeFiles/task3.dir
+/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/CLionProjects/cpp_course/2023_2024_2nd_sem/contest2/cmake-build-debug/CMakeFiles/task4.dir
+/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/CLionProjects/cpp_course/2023_2024_2nd_sem/contest2/cmake-build-debug/CMakeFiles/task5.dir
+/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/CLionProjects/cpp_course/2023_2024_2nd_sem/contest2/cmake-build-debug/CMakeFiles/task6.dir
+/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/CLionProjects/cpp_course/2023_2024_2nd_sem/contest2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/CLionProjects/cpp_course/2023_2024_2nd_sem/contest2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
