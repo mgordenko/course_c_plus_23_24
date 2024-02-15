@@ -1,0 +1,10 @@
+/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week4/07_08_sem/cmake-build-debug/CMakeFiles/problem1_circleArea.dir
+/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week4/07_08_sem/cmake-build-debug/CMakeFiles/problem2_increment.dir
+/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week4/07_08_sem/cmake-build-debug/CMakeFiles/problem3_recursive.dir
+/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week4/07_08_sem/cmake-build-debug/CMakeFiles/problem4_print.dir
+/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week4/07_08_sem/cmake-build-debug/CMakeFiles/problem5_transformArray.dir
+/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week4/07_08_sem/cmake-build-debug/CMakeFiles/problem6_executeCallback.dir
+/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week4/07_08_sem/cmake-build-debug/CMakeFiles/problem7_sum.dir
+/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week4/07_08_sem/cmake-build-debug/CMakeFiles/problem8_filter.dir
+/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week4/07_08_sem/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week4/07_08_sem/cmake-build-debug/CMakeFiles/rebuild_cache.dir

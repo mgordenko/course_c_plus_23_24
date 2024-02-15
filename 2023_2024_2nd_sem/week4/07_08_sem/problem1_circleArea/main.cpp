@@ -14,5 +14,10 @@
 #include <iostream>
 #include <cmath>
 
+double circleArea(double radius) {
+    return M_PI * radius * radius;
+}
+
 int main() {
+    std::cout << circleArea(5);
 }

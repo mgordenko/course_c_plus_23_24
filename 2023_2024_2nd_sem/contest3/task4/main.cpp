@@ -4,17 +4,12 @@
 
 #include "iostream"
 
-int main()
-{
-    int n;
-    std::cin >> n;
-    float num = 0.0;
-    for (int i = 2; i < n + 1; i = i + 2){
-        num -= 1.0 / i;
+
+std::string join(const std::vector<std::string>& tokens, char delimiter) {
+    std::string ans = "";
+    for (int i = 0; i < tokens.size(); i++) {
+        if (i == tokens.size()-1) ans += tokens[i];
+        else ans += tokens[i] + delimiter;
     }
-    for (int j = 1; j < n + 1; j = j + 2){
-        num += 1.0 / j;
-    }
-    std::cout << num;
-    return 0;
+    return ans;
 }

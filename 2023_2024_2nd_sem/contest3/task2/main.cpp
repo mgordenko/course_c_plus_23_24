@@ -3,10 +3,20 @@
 //
 
 #include <iostream>
-#include <string>
 
 int main()
 {
-    
+    int n;
+    std::cin >> n;
+    int m;
+    int ans[n];
+    for (int i = 1; i <= n; i++) {
+        std::cin >> m;
+        ans[m - 1] = i;
+    }
+    for (int j : ans){
+        std::cout << j << " ";
+    }
+
     return 0;
 }

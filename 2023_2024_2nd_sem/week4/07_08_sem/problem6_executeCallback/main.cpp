@@ -13,9 +13,21 @@
 
 #include <iostream>
 
+void executeCallback(void (*callback)()) {
+    callback();
+}
+
+void print() {
+    std::cout << " с днем рождения ";
+    executeCallback(print);
+    std::cout << "gbpltw";
+}
+
 int main()
 {
-    // Your code here
+    print();
+
+
 
     return 0;
 }

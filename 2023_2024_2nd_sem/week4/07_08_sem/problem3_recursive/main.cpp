@@ -13,9 +13,20 @@
 
 #include <iostream>
 
+int sum_of_digits(int n){
+    if (n == 0) return 0;
+    int sum = n % 10;
+    n = n / 10;
+    sum += sum_of_digits(n);
+    return sum;
+}
+
+
 int main()
 {
-    // Your code here
+    int n;
+    std::cin >> n;
+    std::cout << sum_of_digits(n);
 
     return 0;
 }

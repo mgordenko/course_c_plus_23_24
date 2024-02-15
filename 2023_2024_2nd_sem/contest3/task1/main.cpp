@@ -6,12 +6,13 @@
 #include <string>
 #include <regex>
 
-std::vector<int> text_info (std::ifstream file, int letters, int words, int lines) {
+std::vector<int> text_info (std::ifstream &file, int letters, int words, int lines) {
     std::string input;
     std::string line;
 
     while (getline(file, line)) {
         input += line + " ";
+        lines += 1;
     }
     std::regex pattern("[^a-zA-Zа-яА-Я]");
     input = regex_replace(input, pattern, " ");

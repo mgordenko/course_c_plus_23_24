@@ -13,9 +13,29 @@
 
 #include <iostream>
 
+void print_array(std::vector<int> arr, int size, char sep) {
+    for (int i = 0; i < size; i++) {
+        std::cout << arr[i] << sep;
+
+    }
+    std::cout << std::endl;
+}
+
+int sum(int n){
+    return n;
+}
+
+template <typename... Args>
+int sum(int count, Args... args){
+    std::vector<int> vec(sum(args...));
+    std::cout << vec[3] << 1;
+    return 0 + sum(args...);
+}
+
 int main()
 {
-    // Your code here
-
+    int n;
+    std::cin >> n;
+    sum(7, 7, 3, 5, 5, 6, 0);
     return 0;
 }

@@ -3,21 +3,21 @@
 //
 #include <iostream>
 
+std::string ExtractDigits(const std::string& s) {
+    std::string ans = "";
+    for (char c: s) {
+        if (isdigit(c)) ans += c;
+    }
+    return ans;
+}
+
 int main()
 {
-    int i, j;
-    char sep = '\t';
-    std::cin >> i >> j;
-    for (int n = 1; n <= i; n++) {
-        std::cout << sep << n;
-    }
-    std::cout << '\n';
-    for (int n = 1; n <= i; n++) {
-        std::cout << n;
-        for (int m = 1; m <= i; m++) {
-            std::cout << sep << (n * m) % j;
-        }
-        std::cout << '\n';
-    }
+
+    std::string s;
+    std::cin >> s;
+    std::cout << ExtractDigits(s);
+
+
     return 0;
 }

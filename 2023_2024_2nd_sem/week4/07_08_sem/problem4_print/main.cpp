@@ -13,9 +13,19 @@
 
 #include <iostream>
 
+int print(int n) {
+    std::cout << n;
+}
+double print(double n) {
+    std::cout << n;
+}
+
 int main()
 {
-    // Your code here
-
+    int i;
+    double d;
+    std::cin >> i >> d;
+    print(i);
+    print(d);
     return 0;
 }

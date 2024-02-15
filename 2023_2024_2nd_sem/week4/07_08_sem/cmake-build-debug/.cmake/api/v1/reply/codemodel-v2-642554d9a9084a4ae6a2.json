@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "05_06_sem",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "problem1_circleArea::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem1_circleArea-Debug-897e897881e4f01e49a4.json",
+					"name" : "problem1_circleArea",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem2_increment::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem2_increment-Debug-658a15fd526a4f116bac.json",
+					"name" : "problem2_increment",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem3_recursive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem3_recursive-Debug-5f03deee3456cf7cf75c.json",
+					"name" : "problem3_recursive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem4_print::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem4_print-Debug-546b9896f71863598380.json",
+					"name" : "problem4_print",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem5_transformArray::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem5_transformArray-Debug-8a474b5f69711e4c2400.json",
+					"name" : "problem5_transformArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem6_executeCallback::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem6_executeCallback-Debug-55b23dd2915e47bba2d7.json",
+					"name" : "problem6_executeCallback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem7_sum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem7_sum-Debug-854ef1ca53e8ce82b0ff.json",
+					"name" : "problem7_sum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem8_filter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem8_filter-Debug-99c95d119fd8c6b12842.json",
+					"name" : "problem8_filter",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week4/07_08_sem/cmake-build-debug",
+		"source" : "/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week4/07_08_sem"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

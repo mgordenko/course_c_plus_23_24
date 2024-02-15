@@ -13,9 +13,37 @@
 
 #include <iostream>
 
+int transform(int n) {
+    return n * n;
+}
+
+void transformArray(int* arr, int size, int (*transform)(int)) {
+    for (int i = 0; i < size; i ++) {
+        arr[i] = transform(arr[i]);
+    }
+}
+
+void print_array(int* arr, int size, char sep) {
+    for (int i = 0; i < size; i++) {
+        std::cout << arr[i] << sep;
+
+    }
+    std::cout << std::endl;
+}
+
+
 int main()
 {
-    // Your code here
-
+    int size;
+    int n;
+    std::cin >> size;
+    int arr[size];
+    for (int i = 0; i < size; i++) {
+        std::cin >> n;
+        arr[i] = n;
+    }
+    print_array(arr, size, ' ');
+    transformArray(arr, size, transform);
+    print_array(arr, size, ' ');
     return 0;
 }

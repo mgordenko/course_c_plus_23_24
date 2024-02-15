@@ -3,6 +3,25 @@
 //
 #include <iostream>
 
+std::vector<std::string> split(const std::string& str, char delimiter) {
+    std::vector<std::string> ans;
+    std::string temp = "";
+    for (char c : str) {
+        if (c == delimiter) {
+            ans.push_back(temp);
+            temp = "";
+        }
+        else {
+            temp += c;
+        }
+    }
+    ans.push_back(temp);
+    return ans;
+}
+
+
+
+
 int main()
 {
     int n, m, k;
