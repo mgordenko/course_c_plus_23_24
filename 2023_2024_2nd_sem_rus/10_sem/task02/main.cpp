@@ -94,7 +94,8 @@ int main() {
   }
 
   for (const auto &flight : flights) {
-    outFile << flight << std::endl;
+    if (flight.arrivalAirport == "MIA")
+      outFile << flight << std::endl;
   }
   outFile.close();
 
