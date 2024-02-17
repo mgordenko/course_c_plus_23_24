@@ -14,7 +14,7 @@ class Car {
     count_doors = count;
   }
   int getYear() {
-    return year;
+    return year;// int* arr
   }
   int setYear(int y) {
     year = y;
@@ -26,7 +26,6 @@ class Car {
     std::cout << year << color << count_doors << '\n';
   }
 };
-
 int main() {
   Car car1(2000, "white", 5);
   car1.info();
