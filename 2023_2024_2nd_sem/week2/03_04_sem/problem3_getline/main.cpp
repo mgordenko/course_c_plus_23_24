@@ -14,10 +14,18 @@
 ///
 ////////////////////////////////////////////////////////////////////////////////
 
+#include "iostream"
+#include "cstring"
+
+const int MAX_CHARS = 255;
 
 int main()
 {
-    // TODO: input your code here
-
+    char c_str[MAX_CHARS];
+    std::string str;
+    std::cout << "c-strings" << '\n';
+    while (std::cin.getline(c_str, MAX_CHARS) && strcmp(c_str, "") != 0);
+    std::cout << "std::string-s" << '\n';
+    while (std::getline(std::cin, str) && !str.empty());
     return 0;
 }

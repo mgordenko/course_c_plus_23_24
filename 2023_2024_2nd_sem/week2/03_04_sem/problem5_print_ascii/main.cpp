@@ -12,10 +12,13 @@
 ///
 ////////////////////////////////////////////////////////////////////////////////
 
+#include "iostream"
 
 int main()
 {
-    // TODO: input your code here
+    std::string rows = "012345";
+    std::string columns = "0123456789ABCDE";
+    for
 
     return 0;
 }

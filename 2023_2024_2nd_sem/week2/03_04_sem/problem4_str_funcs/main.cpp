@@ -15,10 +15,31 @@
 ///
 ////////////////////////////////////////////////////////////////////////////////
 
+#include "iostream"
+#include "cstring"
+#include "string"
+const int MAX_CHARS = 255;
 
 int main()
 {
-    // TODO: input your code here
+    char c_str_1[MAX_CHARS];
+    char c_str_2[MAX_CHARS];
+    std::string str_1;
+    std::string str_2;
+    std::cout << "c-strings" << '\n';
+    std::cin >> c_str_1 >> c_str_2;
+    std::cout << "res of comparing c_str_1 and c_str_2: " << strcmp(c_str_1, c_str_2) << '\n';
+    std::cout << "length of c_str_1: " << strlen(c_str_1) << '\n';
+    std::cout << "length of c_str_2: " << strlen(c_str_2) << '\n';
+
+    std::cout << "std::string-s" << '\n';
+    std::cin >> str_1 >> str_2;
+    std::cout << "size of str_1: " << str_1.size() << '\n';
+    std::cout << "size of str_2: " << str_2.size() << '\n';
+    std::cout << "length of str_1: " << str_1.length() << '\n';
+    std::cout << "length of str_2: " << str_2.length() << '\n';
+    std::cout << str_1 + str_2 << '\n';
+
 
     return 0;
 }

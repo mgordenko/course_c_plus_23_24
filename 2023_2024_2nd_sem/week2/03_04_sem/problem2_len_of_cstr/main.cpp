@@ -15,9 +15,11 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 
-int main()
-{
-    // TODO: input your code here
+#include <iostream>
+#include <cstring>
 
+int main() {
+    const char* str = "Hello";
+    std::cout << std::strlen(str);
     return 0;
 }
