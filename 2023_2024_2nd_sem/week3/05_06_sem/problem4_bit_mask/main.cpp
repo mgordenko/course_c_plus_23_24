@@ -13,10 +13,16 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 #include <iostream>
+#include "bitset"
 
 int main()
 {
-    // Your code here
+    unsigned int n, k;
+    std::cin >> n >> k;
+    std::bitset<32> b(n);
+    if (b[k] == 1) std::cout << "Yes";
+    else std::cout << "No";
+
 
     return 0;
 }

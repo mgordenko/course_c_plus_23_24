@@ -15,7 +15,13 @@
 
 int main()
 {
-    // Your code here
+    int a, b;
+    std::cin >> a >> b;
+
+    int* pointer_a = &a;
+    int* pointer_b = &b;
+
+    std::cout << *pointer_a + *pointer_b;
 
     return 0;
 }

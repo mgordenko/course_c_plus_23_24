@@ -15,7 +15,25 @@
 
 int main()
 {
-    // Your code here
+    int size;
+    std::cin >> size;
+
+    int arr[size];
+    for(int i = 0; i < size; i++) {
+        std::cin >> arr[i];
+    }
+
+    int* pointer = arr;
+    int* last_pointer = (pointer + size - 1);
+
+    std::cout << *pointer << ' ' << *last_pointer << '\n';
+    int counter = 1;
+    while (*pointer != *last_pointer) {
+        counter += 1;
+        *pointer = *(pointer++);
+    }
+
+    std::cout << counter;
 
     return 0;
 }

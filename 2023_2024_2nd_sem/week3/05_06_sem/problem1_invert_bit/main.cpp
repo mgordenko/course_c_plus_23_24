@@ -13,10 +13,14 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 #include <iostream>
-
+#include <bitset>
 int main()
 {
-    // Your code here
-
+    unsigned int n, k;
+    std::cin >> n >> k;
+    std::bitset<32> b1(n);
+    n ^= (1u << k);
+    std::bitset<32> b2(n);
+    std::cout << b1 << '\n' << b2;
     return 0;
 }

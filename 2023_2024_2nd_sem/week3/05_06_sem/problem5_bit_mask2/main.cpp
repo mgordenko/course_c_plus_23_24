@@ -16,7 +16,12 @@
 
 int main()
 {
-    // Your code here
+    unsigned int n, k;
+    std::cin >> n >> k;
+    std::bitset<32> b(n);
+    std::cout << n << '\n' << b << '\n';
+    b[k] = 1;
+    std::cout << b << '\n' << b.to_ulong();
 
     return 0;
 }
