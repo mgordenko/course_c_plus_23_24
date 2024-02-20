@@ -28,6 +28,16 @@ int main()
     int* pointer_old = arr;
     int* pointer_new = new_arr;
 
+    for (int i = 0; i < size; i++) {
+        *(pointer_new + i) = *(pointer_old + i);
+        std::cout << (pointer_new + i) << ' ';
+    }
+    std::cout << '\n';
+
+    for (int i = 0; i < size; ++i) {
+        std::cout << new_arr[i] << ' ';
+    }
+
 
 
     return 0;

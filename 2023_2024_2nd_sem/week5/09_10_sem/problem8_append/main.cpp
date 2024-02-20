@@ -12,9 +12,16 @@
 #include <iostream>
 #include <string>
 
-void appendToFile(const std::string& filePath, const std::string& content);
+void appendToFile(const std::string& filePath, const std::string& content) {
+    std::ofstream out(filePath, std::ios::app);
+    if (out.is_open()) {
+        out << content;
+    }
+    out.close();
+};
 
 int main() {
-    appendToFile("existing_file.txt", "Appended content.\n");
+    std::string PATH = "/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week5/09_10_sem/problem8_append/existing_file.txt";
+    appendToFile(PATH, "Appended content.\n");
     return 0;
 }

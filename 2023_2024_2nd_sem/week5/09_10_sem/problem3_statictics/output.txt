@@ -1,0 +1,3 @@
+Number of rows: 3
+Number of words: 9
+Number of characters: 15
