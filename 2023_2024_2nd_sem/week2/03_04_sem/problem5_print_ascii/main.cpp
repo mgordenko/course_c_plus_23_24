@@ -12,10 +12,14 @@
 ///
 ////////////////////////////////////////////////////////////////////////////////
 
+#include <iostream>
 
 int main()
 {
-    // TODO: input your code here
-
+    for (int i = 0; i <= 255; i++) {
+        std::cout << (char)(i) << ' ';
+        if (i % 15 == 0)
+            std::cout << '\n';
+    }
     return 0;
 }

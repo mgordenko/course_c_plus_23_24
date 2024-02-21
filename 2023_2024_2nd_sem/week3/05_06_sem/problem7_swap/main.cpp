@@ -13,9 +13,16 @@
 
 #include <iostream>
 
-int main()
-{
-    // Your code here
+void swap1(int *a, int *b) {
+  int temp = *b;
+  *b = *a;
+  *a = temp;
+}
 
-    return 0;
+int main() {
+  int el1 = 5, el2 = 10;
+  std::cout << el1 << ' ' << el2 << '\n';
+  swap1(&el1, &el2);
+  std::cout << el1 << ' ' << el2 << '\n';
+  return 0;
 }

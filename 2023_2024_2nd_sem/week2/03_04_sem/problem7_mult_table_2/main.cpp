@@ -13,9 +13,30 @@
 ///
 ////////////////////////////////////////////////////////////////////////////////
 
+// m (число строк) n (число слобцов) 3 4
+//  1   2   3   4
+//1 1   2   3   4
+//2 2   4   6   8
+//3 3   6   9   12
+#include <iostream>
+int main() {
+  int n = 4, m = 5;
+  //std::cin >> m >> n;
+  std::cout << '\t';
 
-int main()
-{
-    // TODO: input your code here
-    return 0;
+  for (short i = 1; i < n + 1; ++i) {
+    std::cout << i << '\t';
+  }
+  std::cout << '\n';
+
+  for (size_t i = 1; i < m + 1; ++i) {
+    for (size_t j = 0; j < n + 1; ++j) {
+      if (j != 0)
+        std::cout << i * j << '\t';
+      else
+        std::cout << i << '\t';
+    }
+    std::cout << '\n';
+  }
+  return 0;
 }

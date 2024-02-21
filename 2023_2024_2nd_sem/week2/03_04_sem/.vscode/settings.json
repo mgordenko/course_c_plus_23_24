@@ -1,5 +1,6 @@
 {
     "code-runner.runInTerminal": true,
+    "editor.formatOnSave": true,
     "files.associations": {
         "__bit_reference": "cpp",
         "__bits": "cpp",
