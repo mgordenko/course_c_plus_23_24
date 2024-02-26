@@ -11,10 +11,43 @@
 #include <fstream>
 #include <iostream>
 #include <cctype> // For toupper()
+#include <fstream>
+#include <sstream>
 
-void convertToLowercase(const std::string& inputFilePath, const std::string& outputFilePath);
+std::string reverse_letters(std::string text) {
+    for (int i = 0; i < text.length(); i++) {
+        if (isupper(text[i])) {
+            text[i] = tolower(text[i]);
+        }
+        else if (islower(text[i])) {
+            text[i] = toupper(text[i]);
+        }
+    }
+    return text;
+}
+
+void convertToLowercase(const std::string& inputFilePath, const std::string& outputFilePath) {
+    std::string text;
+    std::string line;
+    std::fstream in(inputFilePath);
+    if (in.is_open()) {
+        std::stringstream buff;
+        buff << in.rdbuf();
+        text = buff.str();
+        text = reverse_letters(text);
+    }
+    in.close();
+    std::ofstream out;
+    out.open(outputFilePath);
+    if (out.is_open()) {
+        out << text;
+    }
+    out.close();
+}
 
 int main() {
-    convertToLowercase("input.txt", "output_uppercase.txt");
+    std::string input = "/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week5/09_10_sem/problem10_change/input.txt";
+    std::string output = "/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week5/09_10_sem/problem10_change/output_uppercase.txt";
+    convertToLowercase(input, output);
     return 0;
 }

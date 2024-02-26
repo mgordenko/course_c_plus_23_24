@@ -30,6 +30,7 @@ void extractLineToFile(const std::string& inputFilePath, const std::string& outp
         }
         out.close();
     }
+
     in.close();
 
 }

@@ -34,5 +34,6 @@ int main() {
     std::string path_1 = "/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week5/09_10_sem/problem2_copy/file_1.txt";
     std::string path_2 = "/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week5/09_10_sem/problem2_copy/file_2.txt";
     copyFile(path_1, path_2);
+
     return 0;
 }

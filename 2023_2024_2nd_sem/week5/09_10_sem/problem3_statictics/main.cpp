@@ -46,5 +46,6 @@ int main() {
     std::string inp = "/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week5/09_10_sem/problem3_statictics/input.txt";
     std::string outp = "/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week5/09_10_sem/problem3_statictics/output.txt";
     countFileStatistics(inp, outp);
+
     return 0;
 }

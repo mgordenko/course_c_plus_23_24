@@ -23,5 +23,6 @@ void appendToFile(const std::string& filePath, const std::string& content) {
 int main() {
     std::string PATH = "/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week5/09_10_sem/problem8_append/existing_file.txt";
     appendToFile(PATH, "Appended content.\n");
+
     return 0;
 }

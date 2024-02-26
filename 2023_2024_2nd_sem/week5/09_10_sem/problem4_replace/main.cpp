@@ -94,6 +94,6 @@ void findAndReplaceInFile(const std::string& filePath, const std::string& toFind
 
 int main() {
     std::string file_path = "/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week5/09_10_sem/problem4_replace/text.txt";
-    findAndReplaceInFile(file_path, "hello", "sosi hui");
+    findAndReplaceInFile(file_path, "hello", "bye bye");
     return 0;
 }

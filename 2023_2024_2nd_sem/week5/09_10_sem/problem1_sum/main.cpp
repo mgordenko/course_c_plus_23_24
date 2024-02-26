@@ -46,5 +46,6 @@ int main() {
     std::string path_output = "/Users/mayakorablina/Yandex.Disk.localized/CodingProjects/cpp_course_2_sem/2023_2024_2nd_sem/week5/09_10_sem/problem1_sum/output.txt";
 
     sumIntegersInFile(path_input, path_output);
+
     return 0;
 }

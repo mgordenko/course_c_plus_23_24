@@ -25,6 +25,7 @@ void remove_blank_lines(std::string inp, std::string outp) {
         }
         out.close();
     }
+
     in.close();
 }
 
