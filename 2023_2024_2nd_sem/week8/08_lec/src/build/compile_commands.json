@@ -1,0 +1,74 @@
+[
+{
+  "directory": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/build",
+  "command": "/usr/bin/clang++ -g -O0 -Wall -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -o CMakeFiles/problem1.dir/problem1/main.cpp.o -c /Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem1/main.cpp",
+  "file": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem1/main.cpp",
+  "output": "CMakeFiles/problem1.dir/problem1/main.cpp.o"
+},
+{
+  "directory": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/build",
+  "command": "/usr/bin/clang++ -g -O0 -Wall -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -o CMakeFiles/problem2.dir/problem2/main.cpp.o -c /Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem2/main.cpp",
+  "file": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem2/main.cpp",
+  "output": "CMakeFiles/problem2.dir/problem2/main.cpp.o"
+},
+{
+  "directory": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/build",
+  "command": "/usr/bin/clang++ -g -O0 -Wall -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -o CMakeFiles/problem3.dir/problem3/main.cpp.o -c /Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem3/main.cpp",
+  "file": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem3/main.cpp",
+  "output": "CMakeFiles/problem3.dir/problem3/main.cpp.o"
+},
+{
+  "directory": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/build",
+  "command": "/usr/bin/clang++ -g -O0 -Wall -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -o CMakeFiles/problem4.dir/problem4/main.cpp.o -c /Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem4/main.cpp",
+  "file": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem4/main.cpp",
+  "output": "CMakeFiles/problem4.dir/problem4/main.cpp.o"
+},
+{
+  "directory": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/build",
+  "command": "/usr/bin/clang++ -g -O0 -Wall -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -o CMakeFiles/problem5.dir/problem5/main.cpp.o -c /Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem5/main.cpp",
+  "file": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem5/main.cpp",
+  "output": "CMakeFiles/problem5.dir/problem5/main.cpp.o"
+},
+{
+  "directory": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/build",
+  "command": "/usr/bin/clang++ -g -O0 -Wall -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -o CMakeFiles/problem6.dir/problem6/main.cpp.o -c /Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem6/main.cpp",
+  "file": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem6/main.cpp",
+  "output": "CMakeFiles/problem6.dir/problem6/main.cpp.o"
+},
+{
+  "directory": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/build",
+  "command": "/usr/bin/clang++ -g -O0 -Wall -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -o CMakeFiles/problem7.dir/problem7/main.cpp.o -c /Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem7/main.cpp",
+  "file": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem7/main.cpp",
+  "output": "CMakeFiles/problem7.dir/problem7/main.cpp.o"
+},
+{
+  "directory": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/build",
+  "command": "/usr/bin/clang++ -g -O0 -Wall -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -o CMakeFiles/problem8.dir/problem8/main.cpp.o -c /Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem8/main.cpp",
+  "file": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem8/main.cpp",
+  "output": "CMakeFiles/problem8.dir/problem8/main.cpp.o"
+},
+{
+  "directory": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/build",
+  "command": "/usr/bin/clang++ -g -O0 -Wall -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -o CMakeFiles/problem9.dir/problem9/main.cpp.o -c /Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem9/main.cpp",
+  "file": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem9/main.cpp",
+  "output": "CMakeFiles/problem9.dir/problem9/main.cpp.o"
+},
+{
+  "directory": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/build",
+  "command": "/usr/bin/clang++ -g -O0 -Wall -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -o CMakeFiles/problem10.dir/problem10/main.cpp.o -c /Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem10/main.cpp",
+  "file": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem10/main.cpp",
+  "output": "CMakeFiles/problem10.dir/problem10/main.cpp.o"
+},
+{
+  "directory": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/build",
+  "command": "/usr/bin/clang++ -g -O0 -Wall -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -o CMakeFiles/problem11.dir/problem11/main.cpp.o -c /Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem11/main.cpp",
+  "file": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem11/main.cpp",
+  "output": "CMakeFiles/problem11.dir/problem11/main.cpp.o"
+},
+{
+  "directory": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/build",
+  "command": "/usr/bin/clang++ -g -O0 -Wall -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -o CMakeFiles/problem12.dir/problem12/main.cpp.o -c /Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem12/main.cpp",
+  "file": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week4/04_lec/src/problem12/main.cpp",
+  "output": "CMakeFiles/problem12.dir/problem12/main.cpp.o"
+}
+]

@@ -1,0 +1,3 @@
+algorithm - a process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.
+database - a structured set of data held in a computer, especially one that is accessible in various ways.
+programming - the process of writing computer programs.
