@@ -1,0 +1,3 @@
+/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem_rus/10_sem/build/CMakeFiles/task02.dir
+/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem_rus/10_sem/build/CMakeFiles/edit_cache.dir
+/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem_rus/10_sem/build/CMakeFiles/rebuild_cache.dir
