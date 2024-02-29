@@ -38,7 +38,7 @@ CMakeCache.txt
 CMakeTmp/
 CTestTestfile.cmake
 cmake_install.cmake
-cmake-build-debug
+cmake-build-debug/
 
 main
 main.dSYM
