@@ -30,3 +30,18 @@
 *.exe
 *.out
 *.app
+
+# CMake
+CMakeFiles/
+CMakeScripts/
+CMakeCache.txt
+CMakeTmp/
+CTestTestfile.cmake
+cmake_install.cmake
+cmake-build-debug
+
+main
+main.dSYM
+
+.vscode
+.idea
