@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week9/17_sem/build",
+  "command": "/usr/bin/clang++ -g -O0 -Werror=return-type -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -o CMakeFiles/titanic.dir/titanic/main.cpp.o -c /Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week9/17_sem/code/src/titanic/main.cpp",
+  "file": "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem/week9/17_sem/code/src/titanic/main.cpp",
+  "output": "CMakeFiles/titanic.dir/titanic/main.cpp.o"
+}
+]
