@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
-project(15_16_sem)
+project(11_12_sem)
 
 
 if (NOT CMAKE_BUILD_TYPE)
@@ -14,11 +14,5 @@ set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -O0 -Wall")
 set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -O0")
 
 #### the list of targets ####
-add_executable(ex1                ex1/main.cpp)
-add_executable(ex2                ex2/main.cpp)
-add_executable(ex3                ex3/main.cpp)
-add_executable(task01                task01/main.cpp)
-# add_executable(task02                task02/main.cpp)
-# add_executable(task03                task03/main.cpp)
-# add_executable(task04                task04/main.cpp)
+add_executable(problem1_car                problem1_car/main.cpp)
 

@@ -2,9 +2,7 @@
 #include <iostream>
 #include <vector>
 /*
-The C++ Standard Template Library (STL) provides a variety of 
-algorithms for searching in containers. Here are some of the most commonly 
-used search methods and their descriptions:
+The C++ Standard Template Library (STL) provides a variety of algorithms for searching in containers. Here are some of the most commonly used search methods and their descriptions:
 
 Non-modifying search algorithms
 std::find
@@ -53,7 +51,6 @@ std::binary_search
 Checks whether a sorted range contains a given value.
 Usage example: std::binary_search(sorted_container.begin(), sorted_container.end(), value).
 */
-
 #include <algorithm>
 #include <iostream>
 #include <numeric>
@@ -67,27 +64,20 @@ int main() {
   // std::find
   auto it_find = std::find(v.begin(), v.end(), 3);
   if (it_find != v.end()) {
-    std::cout << "Found 3 at position: "
-              << std::distance(v.begin(), it_find)
-              << std::endl;
+    std::cout << "Found 3 at position: " << std::distance(v.begin(), it_find) << std::endl;
   }
 
   // std::find_if
-  auto it_find_if = std::find_if(v.begin(), v.end(),
-                                 [](int i) { return i % 2 == 0; });
+  auto it_find_if = std::find_if(v.begin(), v.end(), [](int i) { return i % 2 == 0; });
   std::cout << "First even number: " << *it_find_if << std::endl;
 
   // std::find_if_not
-  auto it_find_if_not = std::find_if_not(v.begin(), v.end(),
-                                         [](int i) { return i % 2 == 0; });
+  auto it_find_if_not = std::find_if_not(v.begin(), v.end(), [](int i) { return i % 2 == 0; });
   std::cout << "First odd number: " << *it_find_if_not << std::endl;
 
   // std::find_end
-  auto it_find_end = std::find_end(v.begin(), v.end(),
-                                   sub.begin(), sub.end());
-  std::cout << "Subsequence {3, 4} found ending at position: "
-            << std::distance(v.begin(), it_find_end) + sub.size() - 1
-            << std::endl;
+  auto it_find_end = std::find_end(v.begin(), v.end(), sub.begin(), sub.end());
+  std::cout << "Subsequence {3, 4} found ending at position: " << std::distance(v.begin(), it_find_end) + sub.size() - 1 << std::endl;
 
   // std::find_first_of
   auto it_find_first_of = std::find_first_of(v.begin(), v.end(), candidates.begin(), candidates.end());
@@ -102,8 +92,7 @@ int main() {
   std::cout << "Number 5 appears " << cnt << " times" << std::endl;
 
   // std::count_if
-  int cnt_if = std::count_if(v.begin(), v.end(),
-                             [](int i) { return i % 2 == 0; });
+  int cnt_if = std::count_if(v.begin(), v.end(), [](int i) { return i % 2 == 0; });
   std::cout << "Even numbers count: " << cnt_if << std::endl;
 
   // std::search

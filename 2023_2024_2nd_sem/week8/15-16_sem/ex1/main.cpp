@@ -9,7 +9,7 @@ int main() {
   vec.push_back(30);
   vec.push_back(40);
   vec.push_back(50);
-  std::cout << "First element: " << vec[0]<< std::endl; // vec.at(0)
+  std::cout << "First element: " << vec[0] << std::endl;
   std::cout << "Size: " << vec.size() << std::endl;
   std::cout << "Capacity: " << vec.capacity() << std::endl;
   vec.pop_back();

@@ -3,11 +3,13 @@
 
 int main() {
     std::array<int, 5> arr = {1, 2, 3, 4, 5};
+
     std::cout << "Array elements: ";
     for (int i = 0; i < arr.size(); ++i) {
         std::cout << arr[i] << " ";
     }
     std::cout << std::endl;
+
     std::cout << "First element: " << arr.front() << std::endl;
     std::cout << "Last element: " << arr.back() << std::endl;
 
