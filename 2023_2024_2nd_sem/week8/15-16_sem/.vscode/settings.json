@@ -1,5 +1,6 @@
 {
     "code-runner.runInTerminal": true,
+    "editor.formatOnSave": true,
     "files.associations": {
         "__bit_reference": "cpp",
         "__bits": "cpp",
@@ -82,10 +83,10 @@
         "stop_token": "cpp",
         "thread": "cpp",
         "cinttypes": "cpp",
-        "__tree": "cpp",
         "codecvt": "cpp",
         "fstream": "cpp",
-        "map": "cpp",
-        "stack": "cpp"
+        "stack": "cpp",
+        "__tree": "cpp",
+        "map": "cpp"
     }
 }

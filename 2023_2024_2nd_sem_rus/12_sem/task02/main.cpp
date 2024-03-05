@@ -18,11 +18,11 @@
 где каждый элемент представляет собой сумму продаж за месяц.
 
 Задачи для выполнения
-Реализуйте функцию для расчета общего объема продаж за год.
-Реализуйте функцию для нахождения месяца с максимальным объемом продаж.
+Реализуйте функцию для расчета общего объема продаж за год. (accumulate)
+Реализуйте функцию для нахождения месяца с максимальным объемом продаж. (distance, max_element)
 Рассчитайте среднемесячные продажи.
 Определите для каждого месяца, превышают ли его продажи среднемесячные продажи, и выведите соответствующие значения true или false.
-Найдите количество месяцев с продажами ниже среднего.
+Найдите количество месяцев с продажами ниже среднего (count_if)
 
 Общий объем продаж за год: 204000
 Месяц с максимальным объемом продаж: 11
@@ -48,19 +48,15 @@ int maxSalesMonth(const std::vector<int> &sales) {
   int max_sales_month = std::distance(sales.begin(), max_sales_it) + 1;
   return max_sales_month;
 }
-
 int main() {
   std::vector<int> sales = {12000, 15000, 13000, 19000, 17000, 16000,
                             18000, 21000, 20000, 17000, 22000, 19000};
   int total = totalSales(sales);
   std::cout << "total: " << total << std::endl;
-
   int maxMonth = maxSalesMonth(sales);
   std::cout << "max: " << maxMonth << std::endl;
-
   int average = total / sales.size();
   std::cout << average << std::endl;
-
   for (int sale : sales) {
     std::cout << (sale > average ? "true " : "false ");
   }

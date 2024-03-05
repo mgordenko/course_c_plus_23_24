@@ -24,7 +24,7 @@
 Определите для каждого месяца, превышают ли его продажи среднемесячные продажи, и выведите соответствующие значения true или false.
 Найдите количество месяцев с продажами ниже среднего.
 
-Общий объем продаж за год: 204000
+Общий объем продаж за год: 209000
 Месяц с максимальным объемом продаж: 11
 Среднемесячные продажи: 17000
 Продажи выше среднего: false false false true true false true true true true true true
@@ -42,7 +42,13 @@ int totalSales(const std::vector<int> &sales) {
   }
   return total;
 }
-
+int totalSales(std::vector<int>::iterator b, std::vector<int>::iterator e) {
+  int total = 0;
+  for (auto it = b; it != e; ++it) {
+    total += *it;
+  }
+  return total;
+}
 int maxSalesMonth(const std::vector<int> &sales) {
   int maxIndex = 0;
   for (int i = 1; i < sales.size(); ++i) {
@@ -52,11 +58,11 @@ int maxSalesMonth(const std::vector<int> &sales) {
   }
   return maxIndex + 1;
 }
-
 int main() {
   std::vector<int> sales = {12000, 15000, 13000, 19000, 17000, 16000,
                             18000, 21000, 20000, 17000, 22000, 19000};
   int total = totalSales(sales);
+  total = totalSales(sales.begin(), sales.end());
   std::cout << "total: " << total << std::endl;
 
   int maxMonth = maxSalesMonth(sales);

@@ -1,4 +1,3 @@
-#include <fstream>
 #include <iostream>
 #include <vector>
 // STL
@@ -29,7 +28,8 @@ int main() {
     std::cout << *it << ' ';
   }
   std::cout << std::endl;
-  for (std::vector<int>::iterator it = vec.end() - 1; it != vec.begin() - 1;
+  for (std::vector<int>::iterator it = vec.end() - 1; 
+  it != vec.begin() - 1;
        it--) {
     std::cout << *it << ' ';
   }

@@ -36,16 +36,21 @@ int main() {
                                  'A', 'S', 'U', 'A', 'W', 'S', 'U', 'A', 'W'};
 
   int total_responses = responses.size();
+  total_responses = std::accumulate(responses.begin(), responses.end(), 0, [](int count, char el) {
+    return count += 1;
+  });
 
   std::map<char, int> counts;// ключ и значение (first, second)
   for (char season : {'W', 'S', 'U', 'A'}) {
     counts[season] = std::count(responses.begin(), responses.end(), season);
   }
+  int count_w = std::count_if(responses.begin(), responses.end(), [](char season) {
+    return season == 'W';
+  });
 
-  auto most_popular = *std::max_element(counts.begin(), counts.end(),
-                                        [](const auto &a, const auto &b) {
-                                          return a.second < b.second;
-                                        });
+  auto most_popular = *std::max_element(counts.begin(), counts.end(), [](const auto &a, const auto &b) {
+    return a.second < b.second;
+  });
   auto least_popular = *std::min_element(counts.begin(), counts.end(),
                                          [](const auto &a, const auto &b) {
                                            return a.second < b.second;

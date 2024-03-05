@@ -27,39 +27,73 @@ Displaying all student records.
 Saving the updated database to a file.
 */
 
-#include <iostream>
 #include <fstream>
-#include <vector>
+#include <iostream>
 #include <string>
+#include <vector>
 
 struct Student {
-    std::string name;
-    int age;
-    double grade;
+  std::string name;
+  int age;
+  double grade;
+  Student(std::string n = "", int a = 0, double g = 0) {
+    name = n;
+    age = a;
+    grade = g;
+  }
+  friend std::istream &operator>>(std::istream &in, Student &student) {
+    in >> student.name >> student.age >> student.grade;
+    return in;
+  }
 
-    friend std::istream& operator>>(std::istream& in, Student& student) {
-        in >> student.name >> student.age >> student.grade;
-        return in;
-    }
-
-    friend std::ostream& operator<<(std::ostream& out, const Student& student) {
-        out << "Name: " << student.name << ", Age: " << student.age << ", Grade: " << student.grade;
-        return out;
-    }
+  friend std::ostream &operator<<(std::ostream &out, const Student &student) {
+    out << "Name: " << student.name << ", Age: " << student.age << ", Grade: " << student.grade;
+    return out;
+  }
 };
 
+void readRecordsFromFile(const std::string &filename, std::vector<Student> &students) {
+  std::fstream file(filename);
+  if (file.is_open()) {
+    Student student;
+    while (file >> student) {
+      students.push_back(student);
+    }
+  }
+}
 
+void displayRecords(const std::vector<Student> &students) {
+  for (const auto &st : students) {
+    std::cout << st << '\n';
+  }
+}
+
+void addRecord(std::vector<Student> &students) {
+  Student st("Bob", 20, 99);
+  students.push_back(st);
+}
+
+void deleteRecord(std::vector<Student> &students, int pos) {
+  students.erase(students.begin() + pos);
+}
+
+void writeRecordsToFile(std::string name, const std::vector<Student> &students) {
+  std::ofstream file(name);
+  for (const auto &st : students) {
+    file << st << '\n';
+  }
+}
 
 int main() {
-    std::vector<Student> students;
+  std::vector<Student> students;
 
-    readRecordsFromFile("students.txt", students);
+  readRecordsFromFile("students.txt", students);
 
-    addRecord(students);
-    deleteRecord(students, 1);
-    displayRecords(students);
+  addRecord(students);
+  deleteRecord(students, 2);
+  displayRecords(students);
 
-    writeRecordsToFile("updated_students.txt", students);
+  writeRecordsToFile("updated_students.txt", students);
 
-    return 0;
+  return 0;
 }

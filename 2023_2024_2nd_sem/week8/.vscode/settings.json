@@ -1,4 +1,6 @@
 {
+    "code-runner.runInTerminal": true,
+    "editor.formatOnSave": true,
     "files.associations": {
         "__bit_reference": "cpp",
         "__bits": "cpp",
@@ -23,7 +25,6 @@
         "chrono": "cpp",
         "clocale": "cpp",
         "cmath": "cpp",
-        "codecvt": "cpp",
         "compare": "cpp",
         "complex": "cpp",
         "concepts": "cpp",
@@ -40,7 +41,6 @@
         "deque": "cpp",
         "exception": "cpp",
         "format": "cpp",
-        "fstream": "cpp",
         "initializer_list": "cpp",
         "iomanip": "cpp",
         "ios": "cpp",
@@ -62,7 +62,6 @@
         "semaphore": "cpp",
         "span": "cpp",
         "sstream": "cpp",
-        "stack": "cpp",
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "string": "cpp",
@@ -83,6 +82,9 @@
         "memory_resource": "cpp",
         "stop_token": "cpp",
         "thread": "cpp",
-        "cinttypes": "cpp"
+        "cinttypes": "cpp",
+        "codecvt": "cpp",
+        "fstream": "cpp",
+        "stack": "cpp"
     }
 }
