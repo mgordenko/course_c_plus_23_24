@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem_rus/13_sem/build"
+			"value" : "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem_rus/10_sem/build"
 		},
 		{
 			"name" : "10_sem_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem_rus/13_sem"
+			"value" : "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem_rus/10_sem"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem_rus/13_sem/build"
+			"value" : "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem_rus/10_sem/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -511,7 +511,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem_rus/13_sem/build/CMakeFiles/pkgRedirects"
+			"value" : "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem_rus/10_sem/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -571,7 +571,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem_rus/13_sem"
+			"value" : "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem_rus/10_sem"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",

@@ -14,6 +14,7 @@ class Wheel {
   }
 };
 class Car : public Engine, public Wheel {};
+
 int main() {
   Car myCar;
   myCar.start();

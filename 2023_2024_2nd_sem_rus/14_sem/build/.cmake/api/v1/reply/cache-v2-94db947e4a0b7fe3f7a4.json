@@ -38,6 +38,42 @@
 			"value" : "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem_rus/14_sem"
 		},
 		{
+			"name" : "14_sem_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem_rus/14_sem/build"
+		},
+		{
+			"name" : "14_sem_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "14_sem_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/mgordenko/course_c_plus_23_24/2023_2024_2nd_sem_rus/14_sem"
+		},
+		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -855,7 +891,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "10_sem"
+			"value" : "14_sem"
 		},
 		{
 			"name" : "CMAKE_RANLIB",

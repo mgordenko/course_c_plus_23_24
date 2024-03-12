@@ -6,15 +6,18 @@ class VectorWrapper {
  public:
   VectorWrapper() : size_(0), capacity_(1), data_(new int[capacity_]) {}
 
+  // v = {1,2,3}
   VectorWrapper(std::initializer_list<int> ilist) : size_(ilist.size()), capacity_(size_), data_(new int[capacity_]) {
     std::copy(ilist.begin(), ilist.end(), data_);
   }
 
-  VectorWrapper(const VectorWrapper &other) : size_(other.size_), capacity_(other.capacity_), data_(new int[capacity_]) {
+  VectorWrapper(const VectorWrapper &other) : size_(other.size_),
+                                              capacity_(other.capacity_), data_(new int[capacity_]) {
     std::copy(other.data_, other.data_ + size_, data_);
   }
 
-  VectorWrapper(VectorWrapper &&other) noexcept : size_(other.size_), capacity_(other.capacity_), data_(other.data_) {
+  VectorWrapper(VectorWrapper &&other) noexcept : size_(other.size_),
+                                                  capacity_(other.capacity_), data_(other.data_) {
     other.size_ = 0;
     other.capacity_ = 0;
     other.data_ = nullptr;
@@ -34,7 +37,6 @@ class VectorWrapper {
     }
     return *this;
   }
-
   VectorWrapper &operator=(VectorWrapper &&other) noexcept {
     if (this != &other) {
       delete[] data_;

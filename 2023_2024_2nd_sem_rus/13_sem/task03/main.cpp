@@ -61,6 +61,7 @@ int main() {
   AutoSaveFile file1("temp.txt");
   file1.write("First.\n");
   AutoSaveFile file2 = std::move(file1);
+  //AutoSaveFile file3(std::move(file1));
   file2.write("ТText aftermove.\n");
   return 0;
 }

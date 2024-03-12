@@ -31,7 +31,7 @@ class StringWrapper {
     data_ = other.data_;
     other.data_ = nullptr;
   }
-
+  // a = b
   StringWrapper &operator=(const StringWrapper &other) {
     if (this != &other) {
       delete[] data_;// !!!
@@ -66,7 +66,7 @@ class StringWrapper {
 int main() {
   StringWrapper sw1;
   StringWrapper sw2("Hello, World!");
-  //StringWrapper sw3(sw2);
+  StringWrapper sw3(sw2);
   StringWrapper sw3 = std::move(sw2);
   sw2.print();
   sw3.print();

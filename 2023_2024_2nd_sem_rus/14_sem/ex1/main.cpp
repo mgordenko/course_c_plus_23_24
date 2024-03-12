@@ -7,7 +7,7 @@ class Vehicle {
   int a = 10;
 
  protected:
-  int b = 100;
+  int b = 200;
 
  public:
   std::string brand = "Ford";
@@ -17,8 +17,7 @@ class Vehicle {
 };
 class Car : public Vehicle {
   void m() {
-    //a = 100;
-    b = 1000;
+    b = 200;
     brand = "";
   }
 
