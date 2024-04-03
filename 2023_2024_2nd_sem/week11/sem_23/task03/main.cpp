@@ -29,32 +29,6 @@ OrderException, который наследуется от std::exception.
 #include <exception>
 #include <string>
 
-class OrderException : public std::exception {
- private:
-  std::string message;
-  int errorCode;
-
- public:
-  OrderException(const std::string& msg, int errCode) :
-   message(std::move(msg)), errorCode(errCode) {}
-  const char* what() const noexcept override {
-    return message.c_str();
-  }
-  int getErrorCode() const noexcept {
-    return errorCode;
-  }
-};
-
-void processOrder(int quantity, double price) {
-  const double minPrice = 10.0;
-  if (quantity < 0) {
-    throw OrderException("Отрицательное количество  не допустимо", 100);
-  } else if (price < minPrice) {
-    throw OrderException("Стоимость товара ниже минимально допустимой", 101);
-  }
-  std::cout << "Заказ обработан успешно: количество товаров - " << quantity << ", стоимость за единицу - " << price << std::endl;
-}
-
 int main() {
   try {
     processOrder(-99, 12.0);
