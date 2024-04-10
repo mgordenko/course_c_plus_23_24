@@ -25,3 +25,6 @@ add_executable(ex3
 add_executable(ex4
         ex4/main.cpp
         )
+add_executable(ex5
+        ex5/main.cpp
+        )

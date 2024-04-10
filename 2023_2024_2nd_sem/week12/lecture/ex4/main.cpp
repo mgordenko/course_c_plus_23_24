@@ -18,20 +18,32 @@ class Derived : public Base<T> {
   T extraData;
  public:
   Derived(const T& value1, const T& value2) : Base<T>(value1), extraData(value2) {}
-  void display() const override {
+  void display() const override final {
     std::cout << "Base data: " << this->data << ", Extra data: " << extraData << std::endl;
   }
 };
 
-int main() {
-  Derived<int> derivedInt(100, 200);
-  Derived<double> derivedDouble(3.14, 2.71);
+template<typename T>
+class DerivedDerived : public Derived<T> {
+ private:
+  T extraExtraData;
+ public:
+  DerivedDerived(const T& value1, const T& value2) : Derived<T>(value1, value2), extraExtraData(value2) {}
+};
 
-  Base<int>* ptrInt = &derivedInt;
-  Base<double>* ptrDouble = &derivedDouble;
+
+int main() {
+  Base<int> baseInt(1);
+  Derived<int> derivedInt(1, 2);
+  DerivedDerived<int> derivedDerivedDouble(1, 3);
+
+  Base<int>* ptrInt = &baseInt;
+  Base<int>* ptrDouble = &derivedInt;
+  Base<int>* ptrDouble2 = &derivedDerivedDouble;
 
   ptrInt->display();
   ptrDouble->display();
+  ptrDouble2->display();
 
   return 0;
 }

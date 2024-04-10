@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 template<typename T>
 class Base {
@@ -10,21 +11,22 @@ class Base {
     std::cout << "Base data: " << data << std::endl;
   }
 };
-
-template<typename T>
-class Derived : public Base<T> {
+template<typename T, typename D>
+class Derived : public Base<D> {
  private:
   T extraData;
  public:
-  Derived(const T& value1, const T& value2) : Base<T>(value1), extraData(value2) {}
+  Derived(const D& value1, const T& value2)
+      : Base<D>(value1), extraData(value2) {}
   void display() const {
-    std::cout << "Base data: " << this->data << ", Extra data: " << extraData << std::endl;
+    std::cout << "Base data: " << this->data
+              << ", Extra data: " << extraData << std::endl;
   }
 };
 
 int main() {
-  Derived<int> derivedInt(100, 200);
-  Derived<double> derivedDouble(3.14, 2.71);
+  Derived<int, int> derivedInt(100, 200);
+  Derived<double, std::string> derivedDouble("abc", 3.14);
 
   derivedInt.display();
   derivedDouble.display();
