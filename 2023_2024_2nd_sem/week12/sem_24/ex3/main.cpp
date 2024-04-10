@@ -3,7 +3,6 @@
 #include <fstream>
 #include <iostream>
 #include <string>
-
 class Base {
  public:
   void display() {

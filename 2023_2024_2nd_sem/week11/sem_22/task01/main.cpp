@@ -5,22 +5,6 @@
 #include <sstream>
 #include <string>
 
-/*
-Design a logging system in C++ that allows for messages of different severity levels to be
- recorded to a file. Your task involves creating a `Logger` class that supports logging messages
- with varying levels of importance, namely ERROR, WARNING, INFO, and DEBUG. The `Logger` class
- should be implemented as a singleton to ensure that only one instance can exist throughout the application.
- It must provide a method to set the logging level and another to log messages, which includes the message's timestamp,
- its level, and the text. The logger should append messages to a log file, with the ability to
- specify the file's name when accessing the logger instance for the first time. Additionally,
- the logger should ignore messages that are below the current logging level.
-
-Implement a demonstration of using this logging system by creating a simple function that performs an
- operation (e.g., summing two integers) and logs messages at different levels based on the operation's
- progression. The main function should adjust the logging level to demonstrate filtering based on the
- level and ensure that the logging output includes relevant timestamps and message levels.
-*/
-
 class Logger {
  public:
   enum class Level {
@@ -35,7 +19,10 @@ class Logger {
   Level currentLevel;
 
   Logger(const std::string &filename, Level level = Level::INFO) : currentLevel(level) {
-
+    logFile.open(filename, std::ios::app);
+    if (!logFile.is_open()) {
+      std::cerr << "Ошибка открытия файла журнала!" << std::endl;
+    }
   }
 
   Logger(const Logger &) = delete;
@@ -43,7 +30,9 @@ class Logger {
 
  public:
   ~Logger() {
-
+    if (logFile.is_open()) {
+      logFile.close();
+    }
   }
   static Logger &getInstance(const std::string &filename = "logfile.txt") {
     static Logger instance(filename);
@@ -51,11 +40,16 @@ class Logger {
   }
 
   void setLevel(Level level) {
-
+    currentLevel = level;
   }
 
   void log(const std::string &message, Level level = Level::INFO) {
-
+    if (level <= currentLevel) {
+      auto now = std::chrono::system_clock::now();
+      auto now_c = std::chrono::system_clock::to_time_t(now);
+      logFile << std::put_time(std::localtime(&now_c), "%Y-%m-%d %X") << " [" << levelToString(level) << "] " << message << '\n';
+      std::cout << std::put_time(std::localtime(&now_c), "%Y-%m-%d %X") << " [" << levelToString(level) << "] " << message << '\n';
+    }
   }
 
  private:
@@ -63,6 +57,14 @@ class Logger {
     switch (level) {
       case Level::DEBUG:
         return "DEBUG";
+      case Level::INFO:
+        return "INFO";
+      case Level::WARNING:
+        return "WARNING";
+      case Level::ERROR:
+        return "ERROR";
+      default:
+        return "UNKNOWN";
     }
   }
 };

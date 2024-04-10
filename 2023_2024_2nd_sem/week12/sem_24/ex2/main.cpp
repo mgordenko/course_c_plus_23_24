@@ -18,5 +18,6 @@ class Car : public Engine, public Wheel {};
 int main() {
   Car myCar;
   myCar.start();
+  myCar.roll();
   return 0;
 }

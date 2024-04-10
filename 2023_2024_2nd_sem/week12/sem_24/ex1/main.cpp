@@ -5,8 +5,10 @@
 class Vehicle {
  private:
   int a = 10;
+
  protected:
-  int b = 100;
+  int b = 200;
+
  public:
   std::string brand = "Ford";
   void beep() {
@@ -15,10 +17,10 @@ class Vehicle {
 };
 class Car : public Vehicle {
   void m() {
-    //a = 100;
-    b = 1000;
+    b = 200;
     brand = "";
   }
+
  public:
   std::string model = "Mustang";
 };

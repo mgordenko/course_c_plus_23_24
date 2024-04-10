@@ -16,3 +16,9 @@ set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -O0")
 add_executable(task01
         task01/main.cpp
 )
+add_executable(task02
+        task02/main.cpp
+        )
+add_executable(task03
+        task03/main.cpp
+        )
