@@ -28,26 +28,7 @@ class Shape {
   Shape(double x, double y) : x(x), y(y) {}
   virtual double area() const = 0;
 };
-class Circle : public Shape {
- private:
-  double radius;
 
- public:
-  Circle(double x, double y, double radius) : Shape(x, y), radius(radius) {}
-  double area() const override {
-    return 3.14 * radius * radius;
-  }
-};
-class Rectangle : public Shape {
- private:
-  double width, height;
-
- public:
-  Rectangle(double x, double y, double width, double height) : Shape(x, y), width(width), height(height) {}
-  double area() const override {
-    return width * height;
-  }
-};
 
 int main() {
   srand(static_cast<unsigned int>(time(nullptr)));

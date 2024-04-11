@@ -31,24 +31,6 @@
 #include <exception>
 #include <string>
 int main() {
-    // map O(logn)
-    // unordered_map O(1)
-    int n;
-    std::cin >> n;
-    std::unordered_map<std::string, std::string> dictionary;
-    std::string first, second;
-    dictionary.reserve(2 * n);
-    for (int i = 0; i < n; ++i) {
-        std::cin >> first >> second;
-        dictionary.emplace(first, second); // dict[first] = second
-        dictionary.emplace(second, first);
-    }
-    int m;
-    std::cin >> m;
-    std::string word;
-    for (int i = 0; i < m; ++i) {
-        std::cin >> word;
-        std::cout << dictionary[word] << '\n';
-    }
+
     return 0;
 }
