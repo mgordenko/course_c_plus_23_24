@@ -1,0 +1,14 @@
+-rootPath
+/Users/mgordenko/QML
+-cmake-output
+-output-file
+/Users/mgordenko/QML/build/Qt_6_7_0_for_macOS-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appQML.cmake
+-importPath
+/Users/mgordenko/QML/build/Qt_6_7_0_for_macOS-Debug/QML
+-importPath
+/Users/mgordenko/QML/build/Qt_6_7_0_for_macOS-Debug
+-importPath
+/Users/mgordenko/Qt/6.7.0/macos/./qml
+-qrcFiles
+/Users/mgordenko/QML/build/Qt_6_7_0_for_macOS-Debug/.rcc/qmake_QML.qrc
+/Users/mgordenko/QML/build/Qt_6_7_0_for_macOS-Debug/.rcc/appQML_raw_qml_0.qrc

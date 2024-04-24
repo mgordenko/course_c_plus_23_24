@@ -1,0 +1,5 @@
+--resource
+/Users/mgordenko/QML/build/Qt_6_7_0_for_macOS-Debug/.rcc/qmake_QML.qrc
+--resource
+/Users/mgordenko/QML/build/Qt_6_7_0_for_macOS-Debug/.rcc/appQML_raw_qml_0.qrc
+/QML/Main.qml

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/QML">/Users/mgordenko/QML/build/Qt_6_7_0_for_macOS-Debug/QML</file>
+
+  </qresource>
+</RCC>

@@ -1,0 +1,120 @@
+{
+	"backtrace" : 7,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"_qt_internal_scan_qml_imports",
+			"_qt_internal_generate_deploy_qml_imports_script",
+			"cmake_language",
+			"_qt_internal_finalize_executable",
+			"qt6_finalize_target"
+		],
+		"files" : 
+		[
+			"/Users/mgordenko/Qt/6.7.0/macos/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"/Users/mgordenko/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"/Users/mgordenko/Qt/6.7.0/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:743:EVAL",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"file" : 3,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 774,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 678,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 678,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 3468,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3282,
+				"parent" : 6
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "appQML_qmlimportscan::@6890427a1f51a3e7e1df",
+	"name" : "appQML_qmlimportscan",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 7,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/appQML_qmlimportscan",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_7_0_for_macOS-Debug/CMakeFiles/appQML_qmlimportscan.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_7_0_for_macOS-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appQML.cmake.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-6def378ecd04e0de2210.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QML",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-dcecb75f20966e826e0a.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-6acc9e4218b2e5eaeb82.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-5963c8e1ae91f3c9cbb9.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-28b7ece52dab98d1bb5a.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQML::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQML-Debug-42dc0897c6fc4e7a7170.json",
+					"name" : "appQML",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQML_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQML_autogen-Debug-5b06bd5662d1d2314cf9.json",
+					"name" : "appQML_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQML_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQML_autogen_timestamp_deps-Debug-422537dfa53a4fbdcf04.json",
+					"name" : "appQML_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQML_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQML_qmlimportscan-Debug-947677a05bcb76b22eac.json",
+					"name" : "appQML_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQML_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQML_qmllint-Debug-a1c4ca961e2769aaf71c.json",
+					"name" : "appQML_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQML_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQML_qmllint_json-Debug-30e6f4a12a040ea37dce.json",
+					"name" : "appQML_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQML_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQML_qmllint_module-Debug-8569055be5c63b42f2cc.json",
+					"name" : "appQML_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQML_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQML_qmltyperegistration-Debug-930e8fdb297e9abd3be4.json",
+					"name" : "appQML_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQML_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQML_tooling-Debug-e7a4f5b20011e6be4eb9.json",
+					"name" : "appQML_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/mgordenko/QML/build/Qt_6_7_0_for_macOS-Debug",
+		"source" : "/Users/mgordenko/QML"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
